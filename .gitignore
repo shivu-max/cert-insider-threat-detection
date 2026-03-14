@@ -1,5 +1,17 @@
-data/
+# Ignore all CSV files
 *.csv
+
+# But allow CSV files in processed_outputs
+!processed_outputs/*.csv
+
+# Ignore dataset folder
+data/
+
+# Python environment
 .venv/
+
+# Jupyter checkpoints
 .ipynb_checkpoints/
+
+# Mac files
 .DS_Store
